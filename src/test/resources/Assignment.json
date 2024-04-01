@@ -1,0 +1,72 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1711368397.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"name",
+			"language",
+			"id",
+			"bio",
+			"version"
+		],
+		"properties": {
+			"name": {
+				"$id": "#root/items/name", 
+				"title": "Name", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Afzal Ghaffar"
+				],
+				"pattern": "^.*$"
+			},
+			"language": {
+				"$id": "#root/items/language", 
+				"title": "Language", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Sindhi"
+				],
+				"pattern": "^.*$"
+			},
+			"id": {
+				"$id": "#root/items/id", 
+				"title": "Id", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"ENTOCR13RSCLZ6KU"
+				],
+				"pattern": "^.*$"
+			},
+			"bio": {
+				"$id": "#root/items/bio", 
+				"title": "Bio", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Aliquam sollicitudin ante ligula, eget malesuada nibh efficitur et. Pellentesque massa sem, scelerisque sit amet odio id, cursus tempor urna. Etiam congue dignissim volutpat. Vestibulum pharetra libero et velit gravida euismod."
+				],
+				"pattern": "^.*$"
+			},
+			"version": {
+				"$id": "#root/items/version", 
+				"title": "Version", 
+				"type": "number",
+				"examples": [
+					1.88
+				],
+				"default": 0.0
+			}
+		}
+	}
+
+}
